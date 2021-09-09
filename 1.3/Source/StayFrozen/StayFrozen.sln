@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StayFrozen", "StayFrozen.csproj", "{1B30FD6D-E97A-49C3-86CE-700472657792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B30FD6D-E97A-49C3-86CE-700472657792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B30FD6D-E97A-49C3-86CE-700472657792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B30FD6D-E97A-49C3-86CE-700472657792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B30FD6D-E97A-49C3-86CE-700472657792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F3B1DC6-A677-4651-BA68-556840C3F003}
+	EndGlobalSection
+EndGlobal
