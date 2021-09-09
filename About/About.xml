@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <supportedVersions>
+		<li></li>
+  </supportedVersions>
+  <packageId>Energistics.StayFrozen</packageId>
+  <name>Stay Frozen</name>
+  <author>Energistics</author>
+  <description>Food and meals will adjust to the ambient temperature. They will remain frozen for some time.</description>
+</ModMetaData>
