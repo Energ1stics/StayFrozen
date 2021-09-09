@@ -6,5 +6,5 @@
   <packageId>Energistics.StayFrozen</packageId>
   <name>Stay Frozen</name>
   <author>Energistics</author>
-  <description>Items will adjust to the ambient temperature. They will remain frozen for some time.</description>
+  <description>Food and meals will adjust to the ambient temperature. They will remain frozen for some time.</description>
 </ModMetaData>
