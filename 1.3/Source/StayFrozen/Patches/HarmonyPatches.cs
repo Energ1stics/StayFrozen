@@ -8,7 +8,6 @@ namespace StayFrozen
     {
         static HarmonyPatches()
         {
-            Harmony.DEBUG = true;
             Harmony harmony = new Harmony("energistics.itemtemperature");
             harmony.PatchAll();
         }
