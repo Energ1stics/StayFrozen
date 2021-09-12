@@ -2,6 +2,7 @@
 using RimWorld;
 using StayFrozen.Extensions;
 using StayFrozen.Formulas;
+using StayFrozen.ModSettings;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,7 +59,7 @@ namespace StayFrozen
             // Update temp
             float temp = __instance.GetTemperature();
             float ambientTemp = __instance.parent.AmbientTemperature;
-            temp = Physics.ThermalBalance(ambientTemp, temp, 40000f, interval);
+            temp = Physics.ThermalBalance(ambientTemp, temp, Settings.timeToBalance, interval);
             __instance.SetTemperature(temp);
         }
 

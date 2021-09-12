@@ -62,7 +62,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\CompRottableExtension.cs" />
+    <Compile Include="Utility\Utils.cs" />
     <Compile Include="Formulas\Physics.cs" />
+    <Compile Include="ModSettings\Mod.cs" />
+    <Compile Include="ModSettings\Settings.cs" />
     <Compile Include="Patches\HarmonyPatches.cs" />
     <Compile Include="Patches\Patch_CompRottable.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
