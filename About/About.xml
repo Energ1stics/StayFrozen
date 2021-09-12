@@ -6,5 +6,22 @@
   <packageId>Energistics.ItemTemperature</packageId>
   <name>Item Temperature</name>
   <author>Energistics</author>
+	<url>https://github.com/Energ1stics/item-temperature</url>
   <description>Changes temperature behaviour so that rottable items will slowly adjust to ambient temperature. Food will take some time to cool down and will stay frozen for some time, without a cooler running.</description>
+	<incompatibleWith>
+		<li>dame.hotmeals</li>
+	</incompatibleWith>
+	<modDependencies>
+		<li>
+			<displayName>Harmony</displayName>
+			<packageId>brrainz.harmony</packageId>
+			<downloadUrl>https://github.com/pardeike/Harmony</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadBefore></loadBefore>
+	<loadAfter>
+		<li>ludeon.rimworld</li>
+		<li>brrainz.harmony</li>
+	</loadAfter>
 </ModMetaData>
