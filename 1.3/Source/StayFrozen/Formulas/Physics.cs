@@ -15,6 +15,10 @@ namespace StayFrozen.Formulas
         public static float ThermalBalance(float ambientTemp, float objectTemp, float balanceTime, float interval = 1)
         {
             double r = balanceTime / 8f;
+            if (r <= 0)
+            {
+                return ambientTemp;
+            }
             double result = ambientTemp + (objectTemp - ambientTemp) * Math.Exp(-interval / r);
             return (float) result;
         }
